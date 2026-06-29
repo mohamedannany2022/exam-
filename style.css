@@ -1,0 +1,512 @@
+@font-face {
+    font-family: "Geist";
+    src: url(/font/Geist/Geist-VariableFont_wght.ttf);
+}
+
+
+body{
+        font-family: "Geist";
+
+}
+
+
+.navbar .nav-link 
+{
+ position: relative;
+
+}
+
+.navbar .nav-link:hover{
+    color:#F59E0B;
+
+}
+.navbar .nav-link:hover::after
+{
+    position: absolute;
+    top:35px;
+    left:40px ;
+    content: "";
+    width: 65px;
+    height: 2.5px;
+    color:#F59E0B;
+    transform: translateX(-50%);
+    transition: width .3s;
+
+}
+
+.dropdown-item{
+    width: 300px;
+    padding-top: 50px;
+    padding: 20px;
+
+}
+.dropdown-menu h6:hover{
+
+        color:#F59E0B;
+
+
+}
+
+
+.dropdown-item img{
+    width: 10px;
+}
+.listitem img{
+        width: 10%;
+
+}
+
+.carddec{
+    padding: 10px;
+    background-color: #f7b7b7;
+}
+
+#item-tab{
+    width: 35%;
+    margin-inline: 20px;
+}
+
+
+
+
+.btn2:hover{
+    color: #F59E0B;
+}
+
+.title-f{
+
+    color: #c40505;
+}
+
+.card-title{
+    font-size: 70px;
+    font-weight:800;
+        color: #c40505;
+
+}
+
+.card-link {
+ background-color:#F59E0B;
+ padding: 10px;
+
+}
+.card-link img{
+    width: 15px;
+}
+.fristcard{
+    transform: rotate(-1deg);
+    border-radius: 5px;
+    z-index: -1;
+    position: relative;
+
+}
+.cardback{
+        position: relative;
+    z-index: -1;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(224, 199, 199);
+     transform: rotate(3deg);
+    border-radius: 5px;
+}
+
+.topcard{
+    transform: rotate(-3deg);
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+.card-img-overlay{
+    width: 100%;
+
+}
+.card-link{
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.card-link{
+    color: white;
+}
+
+.card-body a:last-child{
+    background-color: white;
+    color: black;
+}
+
+.card-link img{
+    padding-inline: 2px;
+    width: 20px;
+    color: white;
+}
+.card-body a:hover{
+
+        box-shadow: 5px 5px orange;
+
+}
+.colorp p:first-child{
+    color: orange;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.colorp p:last-child{
+    color:gray;
+    font-size:large;
+}
+
+.colstic img{
+    width: 15px;
+}
+.colstic{
+    height: 30px;
+    
+    background-color: rgb(248, 212, 212);
+    width: 50%;
+    padding-inline: 15px;
+    color: orange;
+    text-align: center;
+    justify-content: center;
+    padding-top:4px ;
+}
+
+.fristcard .pic img{
+    width: 100px;
+    color: white;
+}
+
+.fristcard .pic-1 img{
+    position: absolute;
+    left: 500px;
+    z-index: 2;
+}
+
+.fristcard .pic-2 img{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.container h4 span{
+    color: brown;
+}
+.container h4{
+    margin-top: 5px;
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(190, 125, 4);
+
+}
+
+.salutioncard ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.salutioncard ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.salutioncard ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 18px;
+    height: 18px;
+    background: url("/icon/check.png") no-repeat center;
+    background-size: contain;
+}
+.card-ser img{
+    transition: 2s;
+}
+
+.card-ser:hover{
+    box-shadow: 0 50px  rosybrown;
+
+}
+
+.card-ser:hover,.card-ser:hover img{
+        transform: scale(1.1);
+}
+
+.navimg{
+    width: 15px;
+}
+
+.nav-item .nav-link a{
+   background-color: white;
+}
+
+.contsec{
+    position: relative;
+
+}
+#Frontend{
+    z-index: -1;
+}
+
+#backend{
+        z-index: 1;
+
+}
+
+.active{
+    display: flex;
+}
+
+.noactive{
+    display: none;
+}
+
+
+.iconk1{
+    background-color:green;
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 20px;
+    font-size: 8px;
+    font-weight:bold;
+}
+
+.stic{
+    background-color: #f7b7b7;
+    
+
+}
+
+.stic img{
+    width: 20px;
+}
+
+.colcon{
+    background-color: rgb(241, 214, 214);
+}
+
+.colcon h6{
+    font-size: 50px;
+    font-weight:900;
+    color:orangered;
+}
+
+
+.colcon h6 span{
+    color: brown;
+}
+
+.review{
+    width: 200px;
+        height:  auto;
+        padding: 20px;
+        position: relative;
+    border-radius: 10px; 
+}
+
+
+
+.review p{
+    margin-top: 20px;
+
+}
+
+.review p::before{
+    
+  content: "";
+    width: 30%;
+    height: 1%;
+    background-color: grey;
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    margin: auto;
+    
+}
+
+.coma{
+    background: palevioletred;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    color:red;
+    font-size: 40px;
+    border-radius: 5px;
+    margin-inline-start: 15px;
+    position: absolute;
+    left: 0;
+
+}
+
+.start{
+    width: 400px;
+    height: 60px;
+        position: relative;
+        left: 60px;
+        margin-bottom: 5px;
+
+}
+
+.start img{
+        position: absolute;
+        left: 10px;
+        top: -20px;;
+        width: 100px;
+        height: 60px;
+    
+}
+
+.start p{
+            position: absolute;
+        left: 10px;
+        top: 30px;
+        width: 150px;
+     position: absolute;
+
+}
+
+.varif{
+    display: flex;
+    background-color: #eec6c6;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+}
+
+.varif img{
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+.idbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.idbar img{
+    width: 60px;
+        height:  60px;
+    border-radius: 50%;
+    border: 1px solid sandybrown;
+    padding: 2px;
+}
+
+
+
+.idcard{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+
+.idtag{
+    padding-left: 20px;
+        text-align: start;
+
+}
+.name{
+    color: sandybrown;
+}
+
+
+.varited img{
+    width: 20px;
+    height: 20px;
+    border: 1px solid sandybrown;
+
+
+}
+.num{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #F59E0B;
+}
+
+.sidenot{
+    margin-top: 30px;
+}
+
+
+.form1:hover{
+ border: 1px solid brown;
+}
+
+.chov{
+    width: 150px;
+    height: 70px;
+}
+.chov :hover{
+    border: 2px solid red;
+    color:#c40505;
+    background-color: #eec6c6;
+}
+
+textarea:hover{
+        border: 2px solid red;
+
+}
+button{
+   background-color: #c40505;
+   color: white;
+}
+.joinus h5 {
+    
+    color: #F59E0B;
+    font-weight: 600;
+       font-size: 80px;
+}
+.joinus h5 span{
+       color: #c40505;
+       font-weight: 600;
+       font-size: 80px;
+
+}
+.leftside{
+   position: relative;
+   left: -147px;
+   right: 200;
+    margin-left:0 ;
+    background-color: white;
+
+}
+
+
+.joinus {
+    background-color: #ecc47e;
+}
+
+footer{
+    height: 30%;
+    margin-top: 20px;
+    position: relative;
+}
+.acc{
+    display: flex;
+    flex-direction: row;
+}
+.acc img{
+    gap: 10px;
+
+    margin-inline: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+
+footer p::after{
+  content: "";
+  width: 50%;
+  height: 5%;
+  color: gray;
+position: absolute;
+top: 100px;
+}
